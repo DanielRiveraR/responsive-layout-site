@@ -43,7 +43,7 @@ a {
 	text-decoration: none;
     border-right: 10px;
     border-left: 10px;
-    border-color: whitesmoke;
+    border-color: powderblue;
     border-style: solid;
 
 }
@@ -85,11 +85,14 @@ img {
 .main-nav a:hover {
 	color: #d9e4ea;
 }
+.footer-container a:hover {
+	color: #d9e4ea;
+}
 
 /* ---- Layout Containers ---- */
 
 .wrapper {
-    background: whitesmoke;
+    background: powderblue;
     margin-bottom: 15px;
 }
     
@@ -111,23 +114,23 @@ img {
 }
 .banner {
 	color: #D3D3D3;
-	background: whitesmoke;
+	background: powderblue;
     margin-top: -20px;
     border-top-width: 0;
     padding-top: 20px;
     padding-bottom: 48px;
 }
 .banner p {
-    color: lightgrey;
+    color: grey;
     font-size: 1.2rem;
     width: 100%;
     margin: auto;
 }
 
 .contact {
-	background: whitesmoke;
+	background: powderblue;
 	padding: 5px 5px;
-	border-bottom: 1px dashed lightgrey;
+	border-bottom: 1px dashed gray;
 }
 
 .contact h2{
@@ -135,12 +138,12 @@ img {
     
 }
 .contact p, .contact li {
-    color: lightgrey;
+    color: grey;
     padding: 10px;
 }
 
 .footer-container {
-    background-color: whitesmoke;
+    background-color: powderblue;
     font-weight: 700;
     display: flex;
     justify-content: space-between;
@@ -151,7 +154,7 @@ img {
     align-items: center;
 }
 footer li {
-    background-color: whitesmoke; 
+    background-color: powderblue; 
 }
 .f3 {
     display: none;
@@ -200,7 +203,7 @@ footer li {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background: whitesmoke;
+        background: powderblue;
         padding: 5px 0;
         margin: 0 5px; 
         border-style: none;
@@ -224,10 +227,10 @@ footer li {
     .banner {
         display: flex;
         flex-direction: row-reverse;
-        background-color: whitesmoke;
+        background-color: powderblue;
      }
      nav li {
-        background-color: whitesmoke;
+        background-color: powderblue;
      }
      .contact p {
          width: 60%;
@@ -255,7 +258,7 @@ footer li {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background: whitesmoke;
+        background: powderblue;
         padding: 5px 0;
         margin: 0 5px; 
         border-style: none;
