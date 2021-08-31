@@ -14,7 +14,7 @@ ul {
 }
 li {
     background: white;
-    padding: 5px -3px;
+    padding: 0;
     margin: 0 5px; 
 }
 p {
@@ -52,7 +52,7 @@ img {
     border-left: 10px;
     border-right: 10px;
 }
-#img-skills {
+.img-skills {
 	max-width: 100%;
     border-left: 10px;
     border-right: 10px;
@@ -113,7 +113,7 @@ img {
 	color: #D3D3D3;
 	background: whitesmoke;
     margin-top: -20px;
-    border-top-width: -5px;
+    border-top-width: 0;
     padding-top: 20px;
     padding-bottom: 48px;
 }
@@ -132,7 +132,7 @@ img {
 
 .contact h2{
     text-transform: uppercase;
-    font-size: .80 rem;
+    
 }
 .contact p, .contact li {
     color: lightgrey;
@@ -146,7 +146,7 @@ img {
     justify-content: space-between;
     padding: 10px;
     align-items: baseline;
-ß}
+}
 .footer-container p {
     align-items: center;
 }
@@ -170,7 +170,7 @@ footer li {
     
 }
 .headline {
-    padding: auto;
+    padding: 0;
     border: 15px 0;
 	margin-bottom: calc(15px + 20px);
     text-align: center;
@@ -201,7 +201,7 @@ footer li {
         flex-direction: row;
         justify-content: center;
         background: whitesmoke;
-        padding: 5px -3px;
+        padding: 5px 0;
         margin: 0 5px; 
         border-style: none;
 
@@ -240,9 +240,9 @@ footer li {
         justify-content: space-between;
     } 
     
-    } 
+} 
     
-}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -256,7 +256,7 @@ footer li {
         flex-direction: row;
         justify-content: center;
         background: whitesmoke;
-        padding: 5px -3px;
+        padding: 5px 0;
         margin: 0 5px; 
         border-style: none;
     }    
